@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://sumanaryan4-hash.github.io/puja/",
+  "name": "छठ पूजा – भारत और दुनिया में",
+  "description": "A comprehensive guide to the ancient Hindu festival of Chhath Puja, covering its history, significance, rituals, and more.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Suman Saurav",
+    "url": "https://sumanaryan4-hash.github.io/puja/"
+  },
+  "mainEntityOfPage": "https://sumanaryan4-hash.github.io/puja/",
+  "image": "https://sumanaryan4-hash.github.io/puja/images/chhath-puja-banner.jpg",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://sumanaryan4-hash.github.io/puja/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}

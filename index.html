@@ -67,6 +67,9 @@
       border-radius: 15px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
     }
     .card img {
       width: 50px;
@@ -77,17 +80,10 @@
       transform: translateY(-8px);
       box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
-    .card a {
-      text-decoration: none;
-      color: #222;
+    .card h3 {
       font-size: 22px;
       font-weight: bold;
-      display: block;
       margin-bottom: 8px;
-      transition: color 0.3s;
-    }
-    .card a:hover {
-      color: #007BFF;
     }
     .card p {
       font-size: 16px;
@@ -160,54 +156,117 @@
 
   <!-- Projects Section -->
   <section class="projects">
-    <div class="card">
-      <img src="https://img.icons8.com/color/48/000000/festival.png" alt="Puja">
-      <a href="/puja" target="_blank">Chhath Puja </a>
+    <a href="/puja" class="card">
+      <img src="https://img.icons8.com/color/96/confetti.png" alt="Chhath Puja">
+      <h3>Chhath Puja</h3>
       <p>Festival related website hosted at /puja</p>
-    </div>
-    <div class="card">
-      <img src="https://img.icons8.com/color/48/000000/women.png" alt="Teej">
-      <a href="/teej" target="_blank">Teej</a>
+    </a>
+
+    <a href="/teej" class="card">
+      <img src="https://img.icons8.com/color/96/confetti.png" alt="Teej">
+      <h3>Teej</h3>
       <p>Traditional celebration project hosted at /teej</p>
-    </div>
-    <div class="card">
-      <img src="https://img.icons8.com/color/48/000000/money.png" alt="Input Anudaan">
-      <a href="/inputanudaan25-26" target="_blank">Input Anudaan 25-26</a>
+    </a>
+
+    <a href="/inputanudaan25-26" class="card">
+      <img src="https://img.icons8.com/color/96/money.png" alt="Input Anudaan">
+      <h3>Input Anudaan 25-26</h3>
       <p>Subsidy/Support project hosted at /inputanudaan25-26</p>
-    </div>
-    <div class="card">
-      <img src="https://img.icons8.com/color/48/000000/user.png" alt="Profile">
-      <a href="/profile" target="_blank">Profile Website</a>
+    </a>
+
+    <a href="/profile" class="card">
+      <img src="https://img.icons8.com/color/96/user.png" alt="Profile Website">
+      <h3>Profile Website</h3>
       <p>Personal profile hosted at /profile</p>
-    </div>
-    <div class="card">
-      <img src="https://img.icons8.com/color/48/000000/hindu-temple.png" alt="Ganesh">
-      <a href="/ganesh-chaturthi" target="_blank">Ganesh Chaturthi </a>
+    </a>
+
+    <a href="/ganesh-chaturthi" class="card">
+      <img src="https://img.icons8.com/color/96/confetti.png" alt="Ganesh Chaturthi">
+      <h3>Ganesh Chaturthi</h3>
       <p>Festival project hosted at /ganesh-chaturthi</p>
-    </div>
-   <div class="card">
-  <img src="https://img.icons8.com/color/96/durga.png" alt="Durga Puja">
-  <h3>Durga Puja</h3>
-  <p>Festival related website hosted at /durgapuja</p>
-  <a href="/durgapuja/">Visit Page</a>
-</div>
+    </a>
+
+    <a href="/durgapuja" class="card">
+      <img src="https://img.icons8.com/color/96/confetti.png" alt="Durga Puja">
+      <h3>Durga Puja</h3>
+      <p>Festival related website hosted at /durgapuja</p>
+    </a>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>Developed by <b>Suman Saurav</b> © 2025</p>
-    <div class="social-links">
-      <a href="https://x.com/sumansauravkss" target="_blank">
-        <img src="https://img.icons8.com/color/48/twitterx--v1.png" alt="Twitter"> Twitter
+  <!-- ====== Footer Start ====== -->
+<footer class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-300 py-8 relative overflow-hidden">
+  <div class="container mx-auto px-4">
+
+    <!-- Top Section Center -->
+    <div class="text-center">
+      <!-- Logo / Branding -->
+      <h2 class="text-2xl sm:text-3xl font-bold text-green-400 mb-3">SKZBlog</h2>
+
+      <!-- Live Date & Time in Hindi -->
+      <p id="datetime" class="mb-6 text-sm sm:text-base text-gray-400"></p>
+    </div>
+
+    <!-- Social Icons as Buttons -->
+    <div class="flex justify-center flex-wrap gap-4 mb-6">
+      <a href="https://x.com/sumansauravkss" target="_blank" 
+         class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+        <i class="fab fa-x-twitter text-xl"></i> X (Twitter)
       </a>
-      <a href="https://www.linkedin.com/in/suman-saurav-503524265/" target="_blank">
-        <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn"> LinkedIn
+
+      <a href="https://www.linkedin.com/in/suman-saurav-503524265/" target="_blank" 
+         class="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+        <i class="fab fa-linkedin text-xl"></i> LinkedIn
       </a>
-      <a href="https://www.facebook.com/Zack387" target="_blank">
-        <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook"> Facebook
+
+      <a href="https://www.facebook.com/Zack387" target="_blank" 
+         class="flex items-center gap-2 bg-blue-700 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+        <i class="fab fa-facebook text-xl"></i> Facebook
+      </a>
+
+      <a href="https://www.instagram.com/suman__saurav_902" target="_blank" 
+         class="flex items-center gap-2 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white px-4 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300">
+        <i class="fab fa-instagram text-xl"></i> Instagram
       </a>
     </div>
-  </footer>
 
-</body>
-</html>
+    <!-- Bottom Section with Copyright + Back to Top -->
+    <div class="flex justify-between items-center mt-6 border-t border-gray-700 pt-4 text-sm sm:text-base text-gray-400">
+      <p>
+        © <span id="year"></span> Managed & Developed by 
+        <span class="font-semibold text-green-400">Suman Saurav</span>
+      </p>
+
+      <!-- Back to Top Button (Inside Footer Right) -->
+      <button id="backToTop" class="bg-green-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 hover:scale-105 transition-all duration-300" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </div>
+</footer>
+
+<!-- FontAwesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Scripts -->
+<script>
+  // Auto Year
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Live Date & Time in Hindi
+  function updateDateTime() {
+    const now = new Date();
+    const options = { 
+      weekday: 'long', year: 'numeric', month: 'long', 
+      day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit',
+      hour12: true
+    };
+    document.getElementById("datetime").textContent = now.toLocaleString('hi-IN', options);
+  }
+  setInterval(updateDateTime, 1000);
+  updateDateTime();
+
+  // Back to Top Button Click Action
+  document.getElementById("backToTop").addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>

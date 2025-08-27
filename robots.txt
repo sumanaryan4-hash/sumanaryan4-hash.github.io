@@ -1,0 +1,13 @@
+User-agent: *
+# Block unnecessary duplicate pages
+Disallow: /search
+Disallow: /*?m=1
+Disallow: /tag/
+Disallow: /category/
+Disallow: /labels/
+
+# Allow everything else
+Allow: /
+
+# Sitemap
+Sitemap: https://skzblog.in/sitemap.xml

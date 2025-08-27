@@ -1,28 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
   <url>
     <loc>https://skzblog.in/</loc>
     <lastmod>2025-08-25</lastmod>
     <priority>1.0</priority>
   </url>
+
+  <!-- Festival Pages -->
   <url>
     <loc>https://skzblog.in/chhath-puja</loc>
     <lastmod>2025-08-25</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skzblog.in/inputanudaaan25-26</loc>
+    <loc>https://skzblog.in/teej</loc>
     <lastmod>2025-08-25</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skzblog.in/profile/</loc>
+    <loc>https://skzblog.in/ganesh-chaturthi</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://skzblog.in/durgapuja</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Government Scheme -->
+  <url>
+    <loc>https://skzblog.in/inputanudaan25-26</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Social & Current Affairs -->
+  <url>
+    <loc>https://skzblog.in/LV-life</loc>
     <lastmod>2025-08-25</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://skzblog.in/teej/</loc>
+    <loc>https://skzblog.in/Naxalism</loc>
     <lastmod>2025-08-25</lastmod>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://skzblog.in/Pahalgam-attack</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://skzblog.in/india-pak-war</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Profile Page -->
+  <url>
+    <loc>https://skzblog.in/profile</loc>
+    <lastmod>2025-08-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
